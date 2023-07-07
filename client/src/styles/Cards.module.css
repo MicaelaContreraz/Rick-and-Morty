@@ -1,0 +1,14 @@
+.conteiner {
+  display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 70px;
+    min-height: calc(200vh - (100px + 200px));
+}
+@media screen and (max-width:825px){
+  .conteiner{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+  }
+}
